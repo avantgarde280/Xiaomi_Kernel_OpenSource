@@ -27,7 +27,7 @@ jobs:
         NAME: TwistedKernel-perf
       with:
         arch: arm64
-        compiler: gcc/10
+        compiler: proton-clang/master/binutils
         defconfig: polaris_user_defconfig
         image: Image.gz-dtb
 
