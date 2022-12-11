@@ -27,7 +27,7 @@ jobs:
         NAME: TwistedKernel-perf
       with:
         arch: arm64
-        compiler: aosp-clang/android10-release/clang-r353983c
+        compiler: aosp-clang/android10-release/clang-r353983c/binutils
         defconfig: polaris_user_defconfig
         image: Image.gz-dtb
 
